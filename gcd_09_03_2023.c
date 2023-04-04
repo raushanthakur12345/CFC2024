@@ -20,6 +20,7 @@ int gcd(int a, int b){
 	else	
 		return gcd(b,a%b);
 }
+
 int main(int argc,char*argv[]){
 	int g, x, y;
 	if(argc != 3){
